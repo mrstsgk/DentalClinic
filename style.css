@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    border-top:solid 8px rgb(108,198,196);
+    background-color: rgb(246,246,246);
+}
+
+.wrapper {
+    margin: 0 22.5%;50
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 14px;
+}
+
+header p {
+    font-size: 10px;
+}
+
+.item1 img {
+    position: absolute;
+    top: 50px;
+}
+
+.tell {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 40px;
+    margin: 0;
+    background-image: url("img/phone.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.time {
+    text-align: center;
+    margin: 0;
+    padding: 3px 5px;
+    border: 1px dashed #333333;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin:0; 
+    padding:0;
+    border-radius: 10px;
+}
+
+li {
+    width: 25%;
+    list-style-type: none;
+    border-left: #99E1DF solid 1px;
+    cursor: pointer;
+    background:linear-gradient(#98E1DF, #71C8C6 50%, #98E1DF);
+    color:#fff;
+    background-size:100% 200%;
+}
+
+li:hover {
+    background-position:0 100%;
+}
+
+.header-nav a {
+    color: white;
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin:2px; padding:10px; font-size:14px;
+}
+
+span {
+    font-size: 5px;
+}
